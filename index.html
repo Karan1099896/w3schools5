@@ -1,16 +1,30 @@
-Warning: truncated output (original token count: 556)
-Total output lines: 31
-
 <!doctype html>
 <html lang="en">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#04aa6d">
-  <title>W3Schools…456 tokens truncated…aria-label="Popular tutorials"></nav>
+  <title>W3Schools — Learn to Code</title>
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="app.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#/" aria-label="W3Schools home"><span class="brand-mark">W<sup>3</sup></span><span class="brand-name">schools</span></a>
+    <button class="icon-button menu-toggle" id="menuToggle" aria-label="Toggle menu" aria-expanded="false"><span></span><span></span><span></span></button>
+    <nav class="main-links" id="mainLinks" aria-label="Main navigation">
+      <a href="#tutorials">Tutorials <span class="chevron">⌄</span></a><a href="#references">References <span class="chevron">⌄</span></a><a href="#exercises">Exercises <span class="chevron">⌄</span></a>
+    </nav>
+    <div class="header-tools">
+      <button class="icon-button" id="searchToggle" aria-label="Search"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg></button>
+      <button class="icon-button theme-toggle" id="themeToggle" aria-label="Toggle dark mode"><svg viewBox="0 0 24 24"><path d="M20.2 15.2A8.2 8.2 0 0 1 8.8 3.8 8.7 8.7 0 1 0 20.2 15.2Z"></path></svg></button>
+      <a class="header-pill spaces-pill" href="#spaces">Spaces</a><a class="header-pill plus-pill" href="#certificates">Get Certified</a><button class="sign-in" data-action="signin">Sign In</button>
+    </div>
+  </header>
+  <div class="search-strip" id="searchStrip" hidden><label class="search-box"><svg viewBox="0 0 24 24"><circle cx="10.8" cy="10.8" r="6.8"></circle><path d="m16 16 5 5"></path></svg><input id="siteSearch" type="search" placeholder="Search our tutorials, e.g. HTML" autocomplete="off"><kbd>ESC</kbd></label><div class="search-results" id="searchResults" role="listbox"></div></div>
+  <nav class="topic-nav" id="topicNav" aria-label="Popular tutorials"></nav>
   <main id="app"></main>
   <footer class="footer" id="footer"></footer>
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
 </body>
 </html>
-
